@@ -1,9 +1,3 @@
-import React from "react"
-
-function Home() {
-    return (
-        <h1>Hi, I'm Pol Labrador 👋</h1>
-    )
+export const Home = () => {
+    return <div>Home</div>
 }
-
-export default Home;
