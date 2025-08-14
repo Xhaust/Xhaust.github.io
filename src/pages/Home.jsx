@@ -1,3 +1,9 @@
+import { HeroSection } from "../components/HeroSection"
+
 export const Home = () => {
-    return <div>Home</div>
+    return (
+        <main>
+            <HeroSection />
+        </main>
+    )
 }
