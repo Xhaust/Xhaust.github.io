@@ -2,8 +2,8 @@ import { HeroSection } from "../components/HeroSection"
 
 export const Home = () => {
     return (
-        <main>
+        <div className="min-h-screen bg-background">
             <HeroSection />
-        </main>
+        </div>
     )
 }
