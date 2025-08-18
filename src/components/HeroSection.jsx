@@ -5,7 +5,7 @@ export const HeroSection = () => {
             <div className="space-y-6">
                 <h1 className="text=4xl md: text-6xl font-bold tracking-tight">
                     <span> Hi I'm</span>
-                    <span> Pol</span>
+                    <span className="text-primary"> Pol</span>
                     <span> Labrador</span>
                 </h1>
             </div>
