@@ -8,6 +8,9 @@ export const HeroSection = () => {
                     <span className="text-primary"> Pol</span>
                     <span> Labrador</span>
                 </h1>
+                <p className="text-lg md:text-xl text-muted-foreground max-2-xl mx-auto">
+                    I'm software engineer. Specializing in front-end development.
+                </p>
             </div>
         </div>
     </section>
