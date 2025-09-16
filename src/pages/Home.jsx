@@ -2,6 +2,7 @@ import { HeroSection } from "../components/HeroSection"
 import { ThemeToggle } from "../components/ThemeToggle"
 import { ProjectsSection } from "../components/ProjectsSection"
 import { NavBar } from "../components/NavBar"
+import { ExperienceSection } from "../components/ExperienceSection"
 
 export const Home = () => {
     return (
@@ -9,6 +10,7 @@ export const Home = () => {
             <ThemeToggle />
             <NavBar />
             <HeroSection />
+            <ExperienceSection />
             <ProjectsSection/>
         </div>
     )
