@@ -7,8 +7,9 @@ export const NavBar = () => {
                 </div>  
                 <div className="space-x-4">
                     <a href="#hero" className="text-gray-700 hover:text-primary transition duration-300">Home</a>
+                    <a href="#experience" className="text-gray-700 hover:text-primary transition duration-300">Experience</a>
                     <a href="#projects" className="text-gray-700 hover:text-primary transition duration-300">Projects</a>
-                    <a href="#about" className="text-gray-700 hover:text-primary transition duration-300">About</a>
+                    
                 </div>
             </div>
         </nav>
