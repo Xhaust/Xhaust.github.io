@@ -18,7 +18,7 @@ export const ProjectsSection = () => {
             </h2> 
         
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                Here are somo of my recent works. Most of these projects are open-source and available on my GitHub.
+                Here are some of my recent works. Most of these projects are open-source and available on my GitHub.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
