@@ -1,6 +1,19 @@
+import { useEffect, useState } from "react";
+
 export const NavBar = () => {
+    const [isScrolled, setIsScrolled] = useState(false);
+    
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsScrolled(window.scrollY > 10)
+        }
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
     return (
-        <nav className="w-full py-4 top-0 z-40 shadow-md">
+        <nav className={"w-full fixed py-4 z-40" + (isScrolled ? "py-3 bg-background/80 backdrop-blur-sm shadow-xs" : "py-5")}>
             <div className="container mx-auto flex justify-between items-center">
                 <div className="text-2xl font-bold text-primary">
                     Pol Labrador
