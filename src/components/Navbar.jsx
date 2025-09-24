@@ -13,7 +13,7 @@ export const NavBar = () => {
     }, []);
 
     return (
-        <nav className={"w-full fixed py-4 z-40" + (isScrolled ? "py-3 bg-background/80 backdrop-blur-sm shadow-xs" : "py-5")}>
+        <nav className={"w-full fixed z-40 py-4 top-0" + (isScrolled ? "bg-background/80 backdrop-blur-md shadow-xs" : "bg-transparent")}>
             <div className="container mx-auto flex justify-between items-center">
                 <div className="text-2xl font-bold text-primary">
                     Pol Labrador
