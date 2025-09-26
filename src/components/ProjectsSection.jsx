@@ -33,11 +33,12 @@ export const ProjectsSection = () => {
                                     <span className="px-2 py-1 text-xs font-medium border rounded-full bg-primary/20 text-secondary" key={tag}>{tag}</span>
                                 ))}
                             </div>
-                        </div>
-                        <h3 className="text-xl font-semibold mb-2 px-6">{project.title}</h3>
-                        <p className="text-gray-600 mb-4 px-6">{project.description}</p>
-                        <div className="px-6">
+
+                            <h3 className="text-xl font-semibold mb-2 px-6">{project.title}</h3>
+                            <p className="text-gray-600 mb-4 px-6">{project.description}</p>
+                            <div className="px-6">
                             <a href={project.githubLink} className="text-primary font-semibold">View on GitHub</a>
+                        </div>
                         </div>
                     </div>
                 ))}
