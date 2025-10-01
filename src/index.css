@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *)); 
+
+
 @theme{
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
@@ -30,6 +33,24 @@
   
   body{
     @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  @keyframes tumbleweed {
+    0% { left: 0; transform: rotate(0deg);}
+    100% { left: 100%; transform: rotate(360deg);}
+  }
+  .animate-tumbleweed {
+    animation: tumbleweed 6s linear infinite;
+  }
+  @keyframes fade-in-slow {
+    0% { opacity: 0; }
+    60% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  .animate-fade-in-slow {
+    animation: fade-in-slow 3s ease forwards;
   }
 }
 
