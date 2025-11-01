@@ -5,10 +5,15 @@ import path from "path"
 
 // https://vite.dev/config/
 export default defineConfig({
+  // Set base to '/' so github pages work correctly. Source: https://vite.dev/guide/static-deploy.html#github-pages
+  base: '/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src")
     }
+  },
+  build: {
+    outDir: 'dist'
   }
 });
