@@ -6,6 +6,14 @@ export const projects = [
         tags: ["Visual Basic"],
         image: "projects/calculator.png",
         githubLink: "https://github.com/Xhaust/VB-Simple-Calculator"
+    },
+    {
+        id: 2,
+        title: "Aim Trainer (WIP)",
+        description: "A first-person aim trainer game developed using Unreal Engine 5. The game is focused on improving the player's aiming skills through the completion of various aiming challenges in different scenarios.",
+        tags: ["C++", "Unreal Engine 5"],
+        image: "projects/aimtrainer.png",
+        githubLink: "https://github.com/Xhaust/AimTrainer"
     }
 ]
 
