@@ -3,7 +3,7 @@ export const projects = [
         id: 1,
         title: "Simple Calculator",
         description: "This is a simple calculator app built with Visual Basic. It performs basic arithmetic operations like addition, subtraction, multiplication, and division.",
-        tags: ["Visual Basic"],
+        tags: ["C#", "Visual Basic"],
         image: "projects/calculator.png",
         githubLink: "https://github.com/Xhaust/VB-Simple-Calculator"
     },
