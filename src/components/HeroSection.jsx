@@ -9,7 +9,7 @@ export const HeroSection = () => {
                     <span> Labrador</span>
                 </h1>
                 <p className="text-lg md:text-xl text-muted-foreground max-2-xl mx-auto">
-                    I'm software engineer. Specializing in front-end development.
+                    Computer Engineering student, I like building things.
                 </p>
             </div>
         </div>
