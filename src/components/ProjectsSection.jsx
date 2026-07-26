@@ -51,7 +51,7 @@ export const ProjectsSection = () => {
                             </div>
 
                             <h3 className="text-xl font-semibold mb-2 px-6">{project.title}</h3>
-                            <p className="text-gray-600 mb-4 px-6">{project.description}</p>
+                            <p className="mb-4 px-6">{project.description}</p>
                             <div className="px-6">
                             <a href={project.githubLink} className="text-primary font-semibold">View on GitHub</a>
                         </div>
