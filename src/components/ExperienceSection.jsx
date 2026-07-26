@@ -12,7 +12,7 @@ export const ExperienceSection = () => {
                <div className="space-y-8">
                     <div className="border-l-2 border-primary pl-6">
                         <h3 className="text-2xl font-semibold mb-1">
-                            Quality Assurance Engineer Intern at <span className="text-primary">Accenture</span>
+                            QA Intern at <span className="text-primary">Accenture</span>
                         </h3>
                         <div className="text-sm text-muted-foreground mt-1">March 2026 - July 2026</div>
                         <ul className="mt-4 list-disc list-inside space-y-2 text-muted-foreground text-sm md:text-base">
