@@ -1,20 +1,28 @@
 export const projects = [
     {
         id: 1,
+        title: "Aim Trainer ",
+        description: "A first-person aim trainer game built with Unreal Engine 5. The game is focused on improving the player's aiming skills through the completion of aiming challenges.",
+        tags: ["C++", "Unreal Engine 5"],
+        image: "projects/aimtrainer.png",
+        githubLink: "https://github.com/Xhaust/AimTrainer"
+    },
+    {
+        id: 2,
+        title: "project-n",
+        description: "A distributed asynchronous job processing system built with Node.js. Designed for scalable background task execution with reliability and fault tolerance.",
+        tags: ["TypeScript", "Node.js", "Express"],
+        image: "projects/project-n.png",
+        githubLink: "https://github.com/Xhaust/project-n"
+    },
+    {
+        id: 3,
         title: "Simple Calculator",
         description: "This is a simple calculator app built with Visual Basic. It performs basic arithmetic operations like addition, subtraction, multiplication, and division.",
         tags: ["C#", "Visual Basic"],
         image: "projects/calculator.png",
         githubLink: "https://github.com/Xhaust/VB-Simple-Calculator"
-    },
-    {
-        id: 2,
-        title: "Aim Trainer (WIP)",
-        description: "A first-person aim trainer game developed using Unreal Engine 5. The game is focused on improving the player's aiming skills through the completion of various aiming challenges in different scenarios.",
-        tags: ["C++", "Unreal Engine 5"],
-        image: "projects/aimtrainer.png",
-        githubLink: "https://github.com/Xhaust/AimTrainer"
-    }
+    }   
 ]
 
 export const ProjectsSection = () => {
